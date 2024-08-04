@@ -9,7 +9,6 @@ const OnboardingItem = ({ screen }: Props) => {
     <View style={styles.container}>
       <Image source={screen.image} style={styles.image} />
       <Text style={styles.title}>{screen.title}</Text>
-      <Text style={styles.description}>{screen.description}</Text>
     </View>
   );
 };
